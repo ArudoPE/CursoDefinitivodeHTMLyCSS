@@ -1,0 +1,5 @@
+/* Le decimos que si tienen al menos un hermano general h2,
+se aplique este estilo, en la misma línea */
+h2 ~ p {
+    color: red;
+}

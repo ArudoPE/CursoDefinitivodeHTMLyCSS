@@ -1,0 +1,12 @@
+/* Que la etiqueta "p" sea hija directa de una etiqueta "div"
+div > p {
+    color: red;
+}*/
+
+/* Este es el combinador descendiente, a todas las etiquetas "p"
+que estén dentro de una etiqueta "div" se aplique el estilo
+(sea hijo directo o no)
+*/
+div p {
+    color: red;
+}

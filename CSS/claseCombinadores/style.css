@@ -1,0 +1,6 @@
+/* Aplícale  esta regla de CSS a todas las etiquetas de párrafo
+que estén cerca de una etiqueta h2, solo funciona si la etiqueta
+p está a continuación (esto es el adjacent sibling)*/
+h2 + p {
+    color:red;
+}
