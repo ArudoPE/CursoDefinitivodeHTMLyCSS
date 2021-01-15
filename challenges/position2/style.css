@@ -1,0 +1,89 @@
+/*RESET*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/*ROOT*/
+:root {
+}
+/*SHARED*/
+body {
+    font-size: 62.5%;
+}
+.box {
+    display: inline-block;
+    height: 120px;
+    width: 120px;
+    border-radius: 12px;
+    box-shadow: 5px 5px 8px #888888;
+    color: white;
+    padding: 10px;
+}
+.box-bubble {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.timebox {
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    font-size: 1rem;
+    padding: 5px 20px;
+    box-shadow: 2px 2px 8px #888888;
+}
+/*TITLE*/
+.app-title {
+    font-size: 1rem;
+    text-align: center;
+    color: #282843;
+}
+/*TIME-NAV*/
+.time-nav {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-around;
+}
+.timebox1 {
+    background-color: #4b4b81;
+    color: #dedefc;
+}
+.timebox2, .timebox3 {
+    background-color: #dedefc;
+    color: #4b4b81;
+}
+/*BODY*/
+.container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    justify-items: center;
+    align-items: center;
+    row-gap: 20px;
+    background-color: rgb(214, 213, 213);
+    padding: 10px;
+    width: 100%;
+    color: white;
+}
+.box1 {
+    background-color: #ff6866;
+}
+.box2 {
+    background-color: #7a54ff;
+}
+.box3 {
+    background-color: #ff8f61;
+}
+.box4 {
+    background-color: #26c5ff;
+}
+.box5 {
+    background-color: #5a65ff;
+}
+.box6 {
+    background-color: #96da45;
+}
+.box-bubble1 {
+    background-color: #ff7f80;
+}

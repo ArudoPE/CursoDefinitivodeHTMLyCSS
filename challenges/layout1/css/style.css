@@ -79,10 +79,8 @@ body {
     padding-top: 10px;
     padding-right: 5px;
 }
-.row {
-    display: grid;
-    grid-auto-flow: column;
-    gap: 1%;
+.main-sidebar-container {
+    display: flex;
 }
 .footer {
     background: linear-gradient(45deg,#025226 0%,#08e939 100%);
@@ -92,4 +90,5 @@ body {
     width: 100%;
     height: 30px;
     padding-top: 5px;
+    margin-bottom: 0;
 }
